@@ -1,0 +1,7 @@
+# Full local development dependencies with local PaddleOCR inference (CPU/GPU)
+-r requirements.txt
+
+# PaddlePaddle & PaddleOCR (Local CPU Inference)
+paddlepaddle==3.3.1
+paddleocr==3.7.0
+paddlex==3.7.2

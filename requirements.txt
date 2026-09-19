@@ -1,0 +1,35 @@
+# Legal Metrology Compliance Checking System - Vercel / Cloud Production Dependencies
+# Lightweight, serverless-compatible dependencies (<250MB uncompressed)
+
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+sqlalchemy==2.0.54
+python-multipart==0.0.32
+pydantic==2.13.5
+pydantic-core==2.46.5
+email-validator==2.3.0
+
+# Image Processing (Headless for serverless Linux containers)
+opencv-python-headless>=4.8.0
+numpy>=1.26.0
+pillow>=10.0.0
+
+# Authentication & Security
+PyJWT[crypto]==2.14.0
+bcrypt==5.0.0
+
+# Statutory Inspection Reports
+reportlab==5.0.1
+python-docx==1.2.0
+
+# Web Scraping & Auditing
+requests==2.34.2
+beautifulsoup4==4.15.0
+lxml==6.1.3
+
+# Fuzzy String Matching
+rapidfuzz==3.14.6
+
+# AI & Configuration
+google-genai>=0.1.1
+python-dotenv>=1.0.0

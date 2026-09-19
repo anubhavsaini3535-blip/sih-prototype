@@ -1,0 +1,44 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Databases & Runtime State
+*.db
+*.sqlite
+*.sqlite3
+lm_compliance.db
+data/*.db
+data/*.sqlite
+data/*.jsonl
+!data/.gitkeep
+
+# Uploads & Reports Runtime Storage
+uploads/*
+!uploads/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Vercel Deployment Artifacts
+.vercel/
+
+# IDE & OS Artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
