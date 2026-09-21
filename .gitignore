@@ -42,3 +42,4 @@ reports/*
 *.swo
 .DS_Store
 Thumbs.db
+.agent/
