@@ -86,6 +86,14 @@ def index():
     return health_check()
 
 
+@app.get("/bg.jpg", include_in_schema=False)
+def get_background():
+    bg_path = _os.path.join(_STATIC_DIR, "bg.jpg")
+    if _os.path.exists(bg_path):
+        return FileResponse(bg_path)
+    return health_check()
+
+
 @app.get("/health", tags=["Health"])
 def health_check():
     return {

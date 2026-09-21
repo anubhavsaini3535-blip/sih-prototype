@@ -12,6 +12,10 @@
       "dest": "/static/$1"
     },
     {
+      "src": "/bg.jpg",
+      "dest": "/static/bg.jpg"
+    },
+    {
       "src": "/(.*)",
       "dest": "/api/index.py"
     }
